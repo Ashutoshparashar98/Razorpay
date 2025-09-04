@@ -1,7 +1,7 @@
 { 
   "type": "module",
   "scripts": {
-    "build": "chmod +x ./node_module/.bin/postcss && postcss style.css -o dist/style.css",
+    "build": "postcss style.css -o dist/style.css",
     "watch": "postcss style.css -o dist/style.css --watch"
   },
   "dependencies": {
